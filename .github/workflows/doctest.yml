@@ -37,7 +37,7 @@ jobs:
           git checkout 3.1
           rm introduction/StarRocks_intro.md
           rm TOC.md
-          rm README.md
+          rm -f README.md
           rm -rf ../docs/3.1
           mkdir -p ../docs/3.1
           cp -r * ../docs/3.1
@@ -45,7 +45,7 @@ jobs:
           git checkout 3.0
           rm introduction/StarRocks_intro.md
           rm TOC.md
-          rm README.md
+          rm -f README.md
           rm -rf ../docs/3.0
           mkdir -p ../docs/3.0
           cp -r * ../docs/3.0
@@ -53,7 +53,7 @@ jobs:
           git checkout 2.5
           rm introduction/StarRocks_intro.md
           rm TOC.md
-          rm README.md
+          rm -f README.md
           rm -rf ../docs/2.5
           mkdir -p ../docs/2.5
           cp -r * ../docs/2.5
