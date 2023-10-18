@@ -34,9 +34,9 @@ jobs:
         run:  |
           cd /home/runner/work/doctest/doctest/temp-zh
           git checkout 3.1
-          rm docs/introduction/StarRocks_intro.md
-          rm docs/TOC.md
-          rm docs/README.md
+          rm introduction/StarRocks_intro.md
+          rm TOC.md
+          rm README.md
           rm -rf ../docs
           mkdir -p ../docs
           cp -r * ../docs
